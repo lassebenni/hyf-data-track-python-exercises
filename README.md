@@ -1,1 +1,40 @@
-# HYF Data Track Python Exercises
+# HYF Data Track — Week 1 Practice Exercises
+
+Six small exercises that consolidate Week 1 (variables, functions, type hints, logging, debugging, file I/O, CLI). Pick the ones that match what felt shaky on a first read of the chapter; you can do them in any order.
+
+## Layout
+
+Each exercise lives in its own subfolder so you can open a single Codespace and switch between them.
+
+| Folder | Topic | Concepts |
+|---|---|---|
+| [`exercise_1/`](exercise_1/) | The Temperature Logger | Variables, functions, type hints, logging |
+| [`exercise_2/`](exercise_2/) | The Data Cleaner | Lists, loops, conditionals, debugging |
+| [`exercise_3/`](exercise_3/) | The Precision Trap | Floating-point math, debugger usage |
+| [`exercise_4/`](exercise_4/) | Grade Processor | Dictionaries, type hints, logging, branching |
+| [`exercise_5/`](exercise_5/) | The File Ingestor | File I/O, context managers, strings |
+| [`exercise_6/`](exercise_6/) | The Pipeline CLI | argparse, logging levels, pathlib |
+
+## Open in Codespaces
+
+Each Week 1 chapter that references a specific exercise links directly into the right folder via:
+
+```
+https://github.com/codespaces/new/lassebenni/hyf-data-track-python-exercises?ref=w1&folder=exercise_N
+```
+
+Inside the Codespace, all six exercises are available. The shared `.devcontainer/` at the repo root sets up Python 3.11 + the VS Code Python extensions for every folder.
+
+## Reset a single exercise
+
+If you've made a mess of one folder and want a clean slate, reset only that subfolder rather than wiping the whole workspace:
+
+```bash
+git checkout -- exercise_3/
+```
+
+That gives you the original starter files for Exercise 3 without touching your work in the other folders.
+
+## Reference solutions
+
+Some exercises ship a `solution.py` alongside the starter (currently `exercise_6/solution.py`). The chapter prose in the curriculum nudges you to attempt the exercise first; the solution is there to compare against once you're done.
