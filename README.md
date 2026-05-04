@@ -51,4 +51,13 @@ That gives you the original starter files for Exercise 3 without touching your w
 
 ## Reference solutions
 
-Some exercises ship a `solution.py` alongside the starter (currently `exercise_6/solution.py`). The chapter prose in the curriculum nudges you to attempt the exercise first; the solution is there to compare against once you're done.
+Reference solutions for **all six exercises** live on a separate branch, [`w1-solutions`](https://github.com/lassebenni/hyf-data-track-python-exercises/tree/w1-solutions). This branch (`w1`) is intentionally starter-only so you don't accidentally peek before you've struggled.
+
+When you're done with an exercise (or genuinely stuck after ~30 minutes), switch:
+
+```bash
+git fetch origin
+git checkout w1-solutions
+```
+
+Each `solution.py` carries `# WHY ...:` comments explaining every design choice — read the comments, don't just copy the code.
