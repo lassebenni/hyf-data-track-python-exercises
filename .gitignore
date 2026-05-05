@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Secrets — never commit these
+.env
+
+# Generated outputs from exercises
+exercise_3/report.txt
+exercise_5/active_users.json
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/settings.json
