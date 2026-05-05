@@ -1,4 +1,6 @@
-# HYF Data Track — Week 2 Practice Exercises
+# HYF Data Track — Week 2 Practice Exercises (solutions branch)
+
+> ⚠️ **You're on the `w2-solutions` branch.** This branch holds the reference answers in-place over the original starters. Switch to `w2` first and have an honest go yourself before reading these. The goal is to attempt, get stuck, and then read the `# WHY ...:` notes — not to collect solutions.
 
 Five small exercises that consolidate Week 2 (configuration & secrets, dataclasses, separation of concerns, pytest, refactoring). Work through them in order: each one builds on patterns introduced in earlier chapters.
 
